@@ -8,11 +8,6 @@ public:
 	
 	Handler() : successor(NULL) {};
 	
-	Handler* GetSuccessor()
-	{
-		return successor;
-	};
-
 	void Add(Handler* next)
 	{
 		if(successor)
